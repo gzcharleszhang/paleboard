@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "672219896681",
+    "firebase_url": "https://paleboard-a06de.firebaseio.com",
+    "project_id": "paleboard-a06de",
+    "storage_bucket": "paleboard-a06de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672219896681:android:e2cc32a357a50c91",
+        "android_client_info": {
+          "package_name": "com.paleboard.paleboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672219896681-jvrs8894jf9av217pv6qqri8dc97h2p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paleboard.paleboard",
+            "certificate_hash": "7147d8b1e37998ac884d3056e43587ac61c001d7"
+          }
+        },
+        {
+          "client_id": "672219896681-chksbhr2ilou53h4a01q4nkcspci95jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAndgkTc2yzBQihp26upgKZ4sgIcc6m6tQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672219896681-chksbhr2ilou53h4a01q4nkcspci95jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
