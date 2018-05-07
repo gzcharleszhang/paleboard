@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 public class InterviewActivity extends AppCompatActivity {
-    // TODO (0) : Make UI for Interviewlayout, with list of interviews
+    // TODO (0) : Make UI for Interview layout, with list of interviews
 
     private static final int INTERVIEW_LIST_REQUEST = 1;
 
