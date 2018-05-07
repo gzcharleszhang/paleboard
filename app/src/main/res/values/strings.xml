@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PaleBoard</string>
+    <string name="submit_hint">Write your response here.</string>
+    <string name="sign_out">Sign out</string>
 </resources>

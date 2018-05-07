@@ -47,7 +47,7 @@ public class InterviewMessagingService extends FirebaseMessagingService {
     private void scheduleJob() {
 
     }
-    
+
     private void handleNow() {
         Log.d(TAG, "Short lived task is done.");
     }

@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".InterviewActivity">
 
+    <ListView
+        android:id="@+id/interview_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/interview_input" />
+
+    <EditText
+        android:id="@+id/interview_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="@string/submit_hint"
+        android:inputType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/interview_messages" />
 </android.support.constraint.ConstraintLayout>
